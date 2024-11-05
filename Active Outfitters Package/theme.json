@@ -1,0 +1,83 @@
+﻿{
+	"name": "active outfitters",
+	
+	"dataColors": ["#21469C", "#7A90C4", "#A6B5D7", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF", "#FFFFFF"],
+	
+	"good": "#21469C",
+	"neutral": "#7A90C4",
+	"bad": "#A6B5D7",
+	"maximum": "#21469C",
+	"center": "#7A90C4",
+	"minimum": "#A6B5D7",
+
+    "textClasses": {
+        "callout": {
+            "fontSize": 30,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#252423"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#252423"
+        }
+    },
+
+	"visualStyles": {
+		"*": {
+			"*": {
+				"title": 		[{
+								"show": true
+								}],
+				"background": 	[{
+								"show": false
+
+								}],
+				"border": 		[{
+								"show": false
+								}]
+			}
+		},
+
+		"page": {
+			"*": {
+				"background":	[{
+								"color": {"solid": {"color": "#E6E6E6"}},
+								"transparency": 0
+								}]
+			}
+		},
+		
+		"image": {
+			"*": {
+				"background":	[{
+								"show": false
+								}],
+				"border": 		[{
+								"show": false
+								}]
+			}
+		},
+		
+		"textbox": {
+			"*": {
+				"background": 	[{
+								"show": false
+								}],
+				"border": 		[{
+								"show": false
+								}]
+			}
+		}
+	}
+}
